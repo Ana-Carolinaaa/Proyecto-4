@@ -1,0 +1,34 @@
+body {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 2rem;
+}
+h1{ 
+    text-align: center;
+}
+
+.label{
+
+    font-weight: 700;
+    font-size: 1.5rem;
+    margin-bottom: 1ch;
+}
+
+.respuesta{
+    color: purple;
+    border: 1px solid goldenrod;
+    border-radius: 15px;
+    padding-inline: 10px;
+    padding-block: 5px;
+    align-self: flex-start;
+    margin-block: 5px;
+}
+
+li{
+    list-style-type: none;
+}
+
+.respuesta:hover{
+    cursor: pointer;
+}
